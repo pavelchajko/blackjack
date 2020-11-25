@@ -1,0 +1,23 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "blackjack",
+    "game",
+    "test-task"
+  ],
+  "author": "Bilal Javed",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  }
+}
